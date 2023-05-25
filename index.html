@@ -4,8 +4,8 @@
         <title>Mi primer pagina con estilo</title>
         <style type="text/css">
             body{
-                font-family: Georgia, "Times New Roman",
-                Times, serif;
+                font-family:cursive; 
+                font-weight: bold;
                 color: purple;
                 background-image: 
                 url("https://w.forfun.com/fetch/7d/7dbd0b0b40c0ca47ad91e77694ba2a19.jpeg");
@@ -13,8 +13,7 @@
                 background-size: cover;
             }
             h1{
-                font-family: Helvetica, Geneva, Arial,
-                 SunSans-Regular, sans-serif;
+                font-family:'Courier New', Courier, monospace;
                 
             }
         </style>
@@ -26,15 +25,24 @@
                 margin-left: 30px;
             }
             a:visited{
-                color:red;
+                color:rgb(10, 185, 25);
+            }
+            .destacado{
+                background-color: yellow;
+                font-weight:bold;
             }
         </style>
 
-        <h1>Mi primer página con estilo </h1>
+        <div>
+         <h1 style="color: red;">Titulo </h1>
+         <p style="font-size: 16px;">Este es un párrafo con estilo embebido</p>
+        </div>
+        
+         <h1> Mi primer página con estilo</h1>
          <p>¡Bienvenido a mi primera página con estilo!</p>
-         <p>No tiene imágenes pero tiene estilo,
-            tambien tiene enlaces
-         </p>
+         <p>No tiene imágenes pero tiene estilo,tambien tiene enlaces</p>
+
+         <p class="destacado">Este párrafo está destacado con estilo embebido utilizando una clase </p>   
         
          <ul class="menu"> 
           <a href="https://www.youtube.com"> Youtube</a> 
